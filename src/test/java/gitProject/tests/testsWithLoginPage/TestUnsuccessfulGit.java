@@ -7,7 +7,7 @@ public class TestUnsuccessfulGit extends BaseTest {
 
     @Test
     public static void unsuccessfulTest(){
-        SignInPage.enter("Limoit","Jeep0600");
+        SignInPage.enter("wrongUsername","wrongPass");
         SignInPage.falseTest();
     }
 }
