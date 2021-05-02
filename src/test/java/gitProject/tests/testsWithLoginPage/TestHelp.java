@@ -8,7 +8,7 @@ public class TestHelp extends BaseTest {
 
     @Test
     public static void helpTest(){
-        SignInPage.enter("Limopit","Jeep0600");
+        SignInPage.enter("username","password");
         LoggedPage.help();
     }
 }
