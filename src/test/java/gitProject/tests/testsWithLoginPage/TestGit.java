@@ -7,7 +7,7 @@ public class TestGit extends BaseTest {
 
     @Test
     public static void gitTest(){
-        SignInPage.enter_and_test("Limopit","Jeep0600");
+        SignInPage.enter_and_test("username","password");
 
     }
 
